@@ -21,16 +21,6 @@ app.get('/tts/:text', function (req, res) {
 })
 
 
-
-
-
-
-
-
-
-
-
-
 app.get('/', (req, res) => {
     res.send('Server is running!!!!!!!!!!!')
 })
